@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4faf60f0a2.js" crossorigin="anonymous"></script>
+    <title>Health care</title>
+    <script src="https://kit.fontawesome.com/4faf60f0a2.js" crossorigin="anonymous"></script>
+    <script>
+        function tablem(){
+        document.getElementsByTagName("table")[0].style.display="inline";
+        document.getElementsByTagName("table")[0].align="center";
+        }
+    </script>
+    <link rel="stylesheet" href="/static/main.css">
+
+</head>
+<body>
+    <div class="eme-container">
+    <div class="type-container" id="sectionGeneral">
+        <div class="navbar">
+            <div  style="margin-right: auto;">
+                <img src="https://res.cloudinary.com/dqe4ld4cx/image/upload/v1672999424/3047883_r02rdm.png" style="height:110px;"/>
+            </div>       
+            <div class="dropdown">
+                <select name="" id="">Hospitals
+                <option value="">Hospitals</option>
+                <option value="">Hospital 1</option>
+                <option value="">Hospital 2</option>
+                <option value="">Hospital 3</option>
+                <option value="">Hospital 4</option>
+                </select>
+            </div>       
+            <div class="dropdown">
+                <select name="" id="">
+                    <option value="">Specialities</option>
+                    <option value="">Onchology</option>
+                    <option value="">Orthopaedic</option>
+                    <option value="">Neurology</option>
+                    <option value="">Plastic surgeon</option>
+                </select>
+            </div>
+            <div class="dropdown">
+                <select name="" id="">
+                <option value="">For Patients</option>
+                <option value="">Pharmaceuticals</option>
+                <option value="">Diagnostics</option>
+                <option value="">Procedures</option>
+                <option value="">Surgery costs</option>
+                </select>
+            </div>
+            <div class="dropdown">
+                <select name="" id="">
+                <option value="">Our Company</option>
+                <option value="">About us</option>
+                <option value="">Leadership Team</option>
+                <option value="">News Room</option>
+                <option value="">Success Stories</option>
+                <option value="">Careers</option>
+                <option value="">Contact Us</option>
+                </select>
+            </div>
+        </div>  
+    <br><br><br><br><br>
+        <center>
+        <div class="d-flex flex-row justify-content-center">
+        <div class="eme-page" >
+            <input id="eme-input" type="text">
+            <input id="eme-button" type="button" value="CONFIRM" onclick="tablem()">
+        </div>
+    </div>
+    </center>
+    <center>
+        <table>
+            <tr>
+                <td colspan="5"align="center">DETAILS</td>
+            </tr>
+            <tr>
+                <td> HOSPITAL</td>
+                <td> LOOCATION</td>
+                <td> DOCTOR NAME</td>
+                <td> AVALIABLE</td>
+                <td>OK</td>
+            </tr>
+            <tr>
+                <td>KIMS </td>
+                <td>SUDHEER  </td>
+                <td> GANDHIPURAM</td>
+                <td> YES</td>
+                <td><input type="button" value="accept"> </td>
+            </tr>
+            <tr>
+                <td>KIMS  </td>
+                <td>SUDHEER </td>
+                <td>GANDHIPURAM </td>
+                <td>NO </td>
+                <td><input type="button" value="accept"> </td>
+            </tr>
+            <tr>
+                <td>KIMS  </td>
+                <td> SUDHEER </td>
+                <td>GANDHIPURAM </td>
+                <td>YES </td>
+                <td><input type="button" value="accept"> </td>
+            </tr>
+        </table>
+    </center>
+    </div>
+</body>
+</html>
